@@ -1,0 +1,173 @@
+@media (max-width: 1024px) {
+  nav {
+    padding: 15px 25px;
+    justify-content: space-between;
+  }
+
+  nav .btn button {
+    width: 150px;
+  }
+
+  .content1 {
+    width: 70%;
+  }
+
+  .angled-img,
+  .angled-img2 {
+    width: 300px;
+  }
+
+  /* 2 */
+  .demo_card {
+    width: 90%;
+  }
+
+  /* 4 */
+  .sec4 {
+    padding: 50px 40px;
+    gap: 40px;
+  }
+  .sec4 .flex_content {
+    width: 50%;
+  }
+
+  /* 5 */
+  .review_grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .review_card:nth-child(4) {
+    grid-column: auto;
+  }
+
+  .review_card:nth-child(5) {
+    grid-column: auto;
+  }
+
+  /* 7 */
+  .sec7 .icons3 {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+  }
+
+  nav ul {
+    text-align: center;
+  }
+
+  nav .btn button {
+    width: 160px;
+  }
+
+
+.content1 {
+  padding-bottom:75%;
+}
+
+  .angled-img,
+  .angled-img2 {
+    width: 150px;
+    bottom: -20px;
+  }
+
+  /* 2 */
+  .sec2 .icons2 {
+    flex-direction: column;
+  }
+
+  .demo_grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .demo_card {
+    width: 90%;
+  }
+
+  /* 3 */
+  .sec3 {
+    padding: 40px 25px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sec3 .content3 {
+    width: 100%;
+  }
+
+  /* 4 */
+  .sec4 {
+    flex-direction: column;
+  }
+
+  .sec4 .imgf {
+    width: 100%;
+  }
+
+  .sec4 .flex_content {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* 5 */
+  .sec5 {
+    padding: 50px 20px;
+  }
+
+  .review_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review_card {
+    height: auto;
+  }
+
+  /* 6 */
+  .sec6 {
+    padding: 50px 20px;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .sec6 .content4 {
+    width: 100%;
+    align-items: center;
+  }
+
+  .sec6 form {
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* 7 */
+  .sec7 {
+    padding: 50px 20px;
+  }
+  .sec7 .icons3 {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  /* 8 */
+  footer {
+    height: 250px;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  footer img {
+    width: 120px;
+  }
+
+}
